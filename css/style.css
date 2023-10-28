@@ -10201,3 +10201,36 @@ h6,
   border: 3px solid #669928;
   border-radius: 6px;
 }
+.contact-buttons {
+  position: fixed;
+    bottom: 25%;
+    left: 5%;
+    z-index: 99999999999;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-around;
+    background-color: #f2f2f2;
+    padding: 10px;
+    background: transparent;
+}
+
+.call-button,
+.whatsapp-button {
+  display: inline-block;
+  background-color: #25d366;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.call-button:hover,
+.whatsapp-button:hover {
+  background-color: #0074cc;
+}
+
+
+
